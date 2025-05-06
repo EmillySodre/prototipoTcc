@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\prototipo1204.props" />
+</Project>

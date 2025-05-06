@@ -1,0 +1,17 @@
+﻿@model List<prototipo1204.Models.Produto>
+
+<h2>Resultados da pesquisa</h2>
+
+@if (!Model.Any())
+{
+    <p>Nenhum produto encontrado.</p>
+}
+else
+{
+    <ul>
+        @foreach (var produto in Model)
+        {
+            <li>@produto.nomeProd - @produto.descricaoProd</li>
+        }
+    </ul>
+}

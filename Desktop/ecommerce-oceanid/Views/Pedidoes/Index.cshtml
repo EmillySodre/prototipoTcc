@@ -1,0 +1,59 @@
+﻿@model IEnumerable<prototipo1204.Models.Pedido>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista de pedidos</h1>
+
+@*
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+*@
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.dataPed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.totalPed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Endereco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pagamento)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.dataPed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.totalPed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Endereco.idEnd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cliente.idCliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Pagamento.idPag)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.idPed">Detalhes do pedido</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,159 @@
+wwwroot\css\site.css
+wwwroot\favicon.ico
+wwwroot\img\bg-footer.png
+wwwroot\img\carrossel\1.png
+wwwroot\img\carrossel\2.png
+wwwroot\img\carrossel\3.png
+wwwroot\img\carrossel\4.png
+wwwroot\img\eye-icon.png
+wwwroot\img\favs-icon.png
+wwwroot\img\favsP-icon.png
+wwwroot\img\fechar-icon.png
+wwwroot\img\icon-shopping-prod.png
+wwwroot\img\img1.jpg
+wwwroot\img\img2.jpg
+wwwroot\img\img3.jpg
+wwwroot\img\login-icon.png
+wwwroot\img\logout.png
+wwwroot\img\menuBurguer-img.png
+wwwroot\img\oceanid_logo.png
+wwwroot\img\oceanid_logo_menor.png
+wwwroot\img\pesq-icon.png
+wwwroot\img\produtos\labios\batom liquido\dior.png
+wwwroot\img\produtos\labios\batom liquido\fenty.png
+wwwroot\img\produtos\labios\batom liquido\franciny.png
+wwwroot\img\produtos\labios\batom liquido\marimaria.png
+wwwroot\img\produtos\labios\batom liquido\melu.png
+wwwroot\img\produtos\labios\batom liquido\nars.png
+wwwroot\img\produtos\labios\batom liquido\rarebeauty.png
+wwwroot\img\produtos\labios\batom liquido\Thumbs.db
+wwwroot\img\produtos\labios\batom\avon.png
+wwwroot\img\produtos\labios\batom\fenty.png
+wwwroot\img\produtos\labios\batom\givanchy.png
+wwwroot\img\produtos\labios\batom\nars.png
+wwwroot\img\produtos\labios\batom\quemdisseberenice.png
+wwwroot\img\produtos\labios\batom\rarebeauty.png
+wwwroot\img\produtos\labios\batom\Thumbs.db
+wwwroot\img\produtos\labios\gloss\fenty.png
+wwwroot\img\produtos\labios\gloss\fran.png
+wwwroot\img\produtos\labios\gloss\fran2.png
+wwwroot\img\produtos\labios\gloss\mari2.png
+wwwroot\img\produtos\labios\gloss\marimaria.png
+wwwroot\img\produtos\labios\gloss\melu.png
+wwwroot\img\produtos\labios\gloss\nars.png
+wwwroot\img\produtos\labios\gloss\rarebeauty.png
+wwwroot\img\produtos\labios\gloss\Thumbs.db
+wwwroot\img\produtos\labios\lapis de boca\givanchy.png
+wwwroot\img\produtos\labios\lapis de boca\mac.png
+wwwroot\img\produtos\labios\lapis de boca\nars.png
+wwwroot\img\produtos\labios\lapis de boca\natura.png
+wwwroot\img\produtos\labios\lapis de boca\Thumbs.db
+wwwroot\img\produtos\labios\lip balm\balm.png
+wwwroot\img\produtos\labios\lip balm\fran.png
+wwwroot\img\produtos\labios\lip balm\rarebeauty.png
+wwwroot\img\produtos\olhos\cilios postiço\anastacia.png
+wwwroot\img\produtos\olhos\cilios postiço\ciliosthat.png
+wwwroot\img\produtos\olhos\cilios postiço\marimaria.png
+wwwroot\img\produtos\olhos\cilios postiço\preco].txt
+wwwroot\img\produtos\olhos\cilios postiço\Thumbs.db
+wwwroot\img\produtos\olhos\delineador\coloridomelu.png
+wwwroot\img\produtos\olhos\delineador\fentypreto.png
+wwwroot\img\produtos\olhos\delineador\franpreto.png
+wwwroot\img\produtos\olhos\delineador\melupreto.png
+wwwroot\img\produtos\olhos\delineador\narspreto.png
+wwwroot\img\produtos\olhos\delineador\pratafenty.png
+wwwroot\img\produtos\olhos\delineador\preco.txt
+wwwroot\img\produtos\olhos\delineador\rarepreto.png
+wwwroot\img\produtos\olhos\delineador\rosamelu.png
+wwwroot\img\produtos\olhos\delineador\Thumbs.db
+wwwroot\img\produtos\olhos\lapis de olho\azulnars.png
+wwwroot\img\produtos\olhos\lapis de olho\brancomelu.png
+wwwroot\img\produtos\olhos\lapis de olho\fentylapis.png
+wwwroot\img\produtos\olhos\lapis de olho\franlapis.png
+wwwroot\img\produtos\olhos\lapis de olho\lapisrare.png
+wwwroot\img\produtos\olhos\lapis de olho\marromnars.png
+wwwroot\img\produtos\olhos\lapis de olho\preco.txt
+wwwroot\img\produtos\olhos\lapis de olho\Thumbs.db
+wwwroot\img\produtos\olhos\mascara de cilios\fentycilios.png
+wwwroot\img\produtos\olhos\mascara de cilios\fentycilios2.png
+wwwroot\img\produtos\olhos\mascara de cilios\francilios.png
+wwwroot\img\produtos\olhos\mascara de cilios\marimaria.png
+wwwroot\img\produtos\olhos\mascara de cilios\melu.png
+wwwroot\img\produtos\olhos\mascara de cilios\melu2.png
+wwwroot\img\produtos\olhos\mascara de cilios\narscilios.png
+wwwroot\img\produtos\olhos\mascara de cilios\preco.txt
+wwwroot\img\produtos\olhos\mascara de cilios\rarebeauty.png
+wwwroot\img\produtos\olhos\primer\nars.png
+wwwroot\img\produtos\olhos\primer\preco.txt
+wwwroot\img\produtos\olhos\primer\primerrare.png
+wwwroot\img\produtos\olhos\primer\primertoofaced.png
+wwwroot\img\produtos\olhos\primer\Thumbs.db
+wwwroot\img\produtos\olhos\sombra\fenty1.png
+wwwroot\img\produtos\olhos\sombra\fenty2.png
+wwwroot\img\produtos\olhos\sombra\meluroxo.png
+wwwroot\img\produtos\olhos\sombra\narsombra.png
+wwwroot\img\produtos\olhos\sombra\sombrajellymari.png
+wwwroot\img\produtos\olhos\sombra\sombraliqrare.png
+wwwroot\img\produtos\olhos\sombra\sombranars2.png
+wwwroot\img\produtos\olhos\sombra\sombraspreco.txt
+wwwroot\img\produtos\olhos\sombra\Thumbs.db
+wwwroot\img\shopping-icon.png
+wwwroot\img\Thumbs.db
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt

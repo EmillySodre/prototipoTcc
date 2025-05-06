@@ -1,0 +1,198 @@
+﻿@model IEnumerable<prototipo1204.Models.Adm>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<script src="~/js/grafico-demo.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/startbootstrap-sb-admin-2@4.1.4/css/sb-admin-2.min.css" rel="stylesheet">
+
+<div class="container-admin">
+    <!-- Menu lateral -->
+    <nav class="sidebarOce">
+        <h2>Admin</h2>
+        <ul>
+            <li><a asp-controller="Produtoes" asp-action="Index">Lista de produtos</a></li>
+            <li><a asp-controller="Clientes" asp-action="Index">Lista de clientes</a></li>
+            <li><a asp-controller="Pedidoes" asp-action="Index">Listra de pedidos</a></li>
+        </ul>
+    </nav>
+
+   <main class="tudo-dash">
+        <h1 class="dashboardT">Dashboard</h1>
+
+    <!-- Gráfico de Barras -->
+        <div class="dashboard">
+        <div class="card p-4 mb-4">
+            <h5 class="text-primary"> Vendas Mensais</h5>
+            <div class="chart-container">
+                <canvas id="graficoBarra"></canvas>
+            </div>
+        </div>
+
+        <!-- Gráfico de Pizza -->
+        <div class="card p-4">
+            <h5 class="text-success">Distribuição</h5>
+            <div class="chart-container">
+                <canvas id="graficoPizza"></canvas>
+            </div>
+        </div>
+    </div>
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Scripts dos gráficos -->
+    <script>
+        // Gráfico de Barras
+        const ctxBar = document.getElementById("graficoBarra").getContext("2d");
+        new Chart(ctxBar, {
+            type: 'bar',
+            data: {
+                labels: ["Jan", "Fev", "Mar", "Abr", "Mai"],
+                datasets: [{
+                    label: "Vendas",
+                    data: [120, 190, 300, 250, 220],
+                        backgroundColor: "#ffb3c6",  // rosa pastel
+                        borderColor: "#ff8fa3",     // rosa mais vibrante
+                        borderWidth: 1,
+                        borderRadius: 8
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        // Gráfico de Pizza
+        const ctxPie = document.getElementById("graficoPizza").getContext("2d");
+        new Chart(ctxPie, {
+            type: 'pie',
+            data: {
+                labels: ["Maquiagem", "Skincare", "Perfume"],
+                datasets: [{
+                    data: [45, 35, 20],
+                        backgroundColor: [
+                            "#ffb3c6", // Maquiagem - rosa claro
+                            "#b7e3d0", // Skincare - verde menta
+                            "#a9cbe0"  // Perfume - azul claro
+                        ],
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false
+            }
+        });
+    </script>
+   </main>
+</div>
+
+<!-- Bootstrap core JavaScript-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Core plugin JavaScript-->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for all pages-->
+<script src="js/sb-admin-2.min.js"></script>
+
+<!-- Page level plugins -->
+<script src="vendor/chart.js/Chart.min.js"></script>
+
+<!-- Page level custom scripts -->
+<script src="js/demo/chart-area-demo.js"></script>
+<script src="js/demo/chart-pie-demo.js"></script>
+<script src="js/demo/chart-bar-demo.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nomeAdm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.senhaAdm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.emailAdm)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nomeAdm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.senhaAdm)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.emailAdm)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.idAdm">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.idAdm">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.idAdm">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+*@

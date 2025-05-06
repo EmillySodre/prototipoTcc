@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|c:\\users\\lider\\desktop\\ecommerce-oceanid\\repositorios\\iloginrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|solutionrelative:repositorios\\iloginrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|c:\\users\\lider\\desktop\\ecommerce-oceanid\\controllers\\loginscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|solutionrelative:controllers\\loginscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|c:\\users\\lider\\desktop\\ecommerce-oceanid\\views\\adms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|solutionrelative:views\\adms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|c:\\users\\lider\\desktop\\ecommerce-oceanid\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|c:\\users\\lider\\desktop\\ecommerce-oceanid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|c:\\users\\lider\\desktop\\ecommerce-oceanid\\repositorios\\loginrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|solutionrelative:repositorios\\loginrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|c:\\users\\lider\\desktop\\ecommerce-oceanid\\data\\oceaniddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|solutionrelative:data\\oceaniddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "oceanidDBcontext.cs",
+              "DocumentMoniker": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\Data\\oceanidDBcontext.cs",
+              "RelativeDocumentMoniker": "Data\\oceanidDBcontext.cs",
+              "ToolTip": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\Data\\oceanidDBcontext.cs",
+              "RelativeToolTip": "Data\\oceanidDBcontext.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAswGkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T15:46:08.853Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginsController.cs",
+              "DocumentMoniker": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\Controllers\\LoginsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginsController.cs",
+              "ToolTip": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\Controllers\\LoginsController.cs",
+              "RelativeToolTip": "Controllers\\LoginsController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAIwLMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T15:57:54.727Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\Views\\Adms\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Adms\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\Views\\Adms\\Index.cshtml",
+              "RelativeToolTip": "Views\\Adms\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T18:52:51.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T18:39:59.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T17:41:06.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ILoginRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\Repositorios\\ILoginRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorios\\ILoginRepositorio.cs",
+              "ToolTip": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\Repositorios\\ILoginRepositorio.cs",
+              "RelativeToolTip": "Repositorios\\ILoginRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T16:00:32.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\Repositorios\\LoginRepositorio.cs",
+              "RelativeDocumentMoniker": "Repositorios\\LoginRepositorio.cs",
+              "ToolTip": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\Repositorios\\LoginRepositorio.cs",
+              "RelativeToolTip": "Repositorios\\LoginRepositorio.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAmwD0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T16:00:31.261Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

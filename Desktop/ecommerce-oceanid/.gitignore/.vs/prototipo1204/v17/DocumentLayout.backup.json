@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\3A-MODULAR\\emy\\prototipo1304\\prototipo1304\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|f:\\3a-modular\\emy\\prototipo1304\\prototipo1304\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|f:\\3a-modular\\emy\\prototipo1304\\prototipo1304\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|solutionrelative:views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|f:\\3a-modular\\emy\\prototipo1304\\prototipo1304\\views\\enderecoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|solutionrelative:views\\enderecoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|f:\\3a-modular\\emy\\prototipo1304\\prototipo1304\\views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|solutionrelative:views\\clientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|f:\\3a-modular\\emy\\prototipo1304\\prototipo1304\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|solutionrelative:views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|f:\\3a-modular\\emy\\prototipo1304\\prototipo1304\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|f:\\3a-modular\\emy\\prototipo1304\\prototipo1304\\data\\oceaniddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFFD100E-D0E8-4512-9B1C-FE84165DE646}|prototipo1204.csproj|solutionrelative:data\\oceaniddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\3A-MODULAR\\emy\\prototipo1304\\prototipo1304\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\3A-MODULAR\\emy\\prototipo1304\\prototipo1304\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAUwHQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T20:01:13.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\3A-MODULAR\\emy\\prototipo1304\\prototipo1304\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Index.cshtml",
+              "ToolTip": "F:\\3A-MODULAR\\emy\\prototipo1304\\prototipo1304\\Views\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T19:59:44.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "F:\\3A-MODULAR\\emy\\prototipo1304\\prototipo1304\\Views\\Enderecoes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Enderecoes\\Delete.cshtml",
+              "ToolTip": "F:\\3A-MODULAR\\emy\\prototipo1304\\prototipo1304\\Views\\Enderecoes\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Enderecoes\\Delete.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T19:59:40.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\3A-MODULAR\\emy\\prototipo1304\\prototipo1304\\Views\\Clientes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Edit.cshtml",
+              "ToolTip": "F:\\3A-MODULAR\\emy\\prototipo1304\\prototipo1304\\Views\\Clientes\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T19:59:37.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\3A-MODULAR\\emy\\prototipo1304\\prototipo1304\\Views\\Clientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clientes\\Create.cshtml",
+              "ToolTip": "F:\\3A-MODULAR\\emy\\prototipo1304\\prototipo1304\\Views\\Clientes\\Create.cshtml",
+              "RelativeToolTip": "Views\\Clientes\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T19:59:32.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "F:\\3A-MODULAR\\emy\\prototipo1304\\prototipo1304\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
+              "ToolTip": "F:\\3A-MODULAR\\emy\\prototipo1304\\prototipo1304\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAawK8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T19:57:49.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "oceanidDBcontext.cs",
+              "DocumentMoniker": "F:\\3A-MODULAR\\emy\\prototipo1304\\prototipo1304\\Data\\oceanidDBcontext.cs",
+              "RelativeDocumentMoniker": "Data\\oceanidDBcontext.cs",
+              "ToolTip": "F:\\3A-MODULAR\\emy\\prototipo1304\\prototipo1304\\Data\\oceanidDBcontext.cs",
+              "RelativeToolTip": "Data\\oceanidDBcontext.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T19:57:15.536Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

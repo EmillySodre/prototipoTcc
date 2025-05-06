@@ -1,0 +1,51 @@
+﻿@model prototipo1204.Models.Pedido
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Pedido</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="idPed" />
+            <div class="form-group">
+                <label asp-for="idCliente" class="control-label"></label>
+                <select asp-for="idCliente" class="form-control" asp-items="ViewBag.idCliente"></select>
+                <span asp-validation-for="idCliente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="idEnd" class="control-label"></label>
+                <select asp-for="idEnd" class="form-control" asp-items="ViewBag.idEnd"></select>
+                <span asp-validation-for="idEnd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="idPag" class="control-label"></label>
+                <select asp-for="idPag" class="form-control" asp-items="ViewBag.idPag"></select>
+                <span asp-validation-for="idPag" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="dataPed" class="control-label"></label>
+                <input asp-for="dataPed" class="form-control" />
+                <span asp-validation-for="dataPed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="totalPed" class="control-label"></label>
+                <input asp-for="totalPed" class="form-control" />
+                <span asp-validation-for="totalPed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

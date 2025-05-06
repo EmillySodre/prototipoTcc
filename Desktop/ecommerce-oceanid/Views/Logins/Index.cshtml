@@ -1,0 +1,41 @@
+﻿@model IEnumerable<prototipo1204.Models.Login>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.adm)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.cliente.idCliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.adm.idAdm)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.idLogin">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.idLogin">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.idLogin">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
