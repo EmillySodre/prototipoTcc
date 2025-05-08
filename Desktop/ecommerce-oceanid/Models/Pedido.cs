@@ -6,9 +6,9 @@ namespace prototipo1204.Models
     {
         public int idPed { get; set; }
         public int? idCliente { get; set; }
-        public int? idEnd { get; set; }
+        public int idEnd { get; set; }
         public int? idPag { get; set; }
-        public DateOnly dataPed { get; set; }
+        public DateTime dataPed { get; set; }
 
         [Column(TypeName = "decimal(10,2)")]
         public decimal totalPed { get; set; }

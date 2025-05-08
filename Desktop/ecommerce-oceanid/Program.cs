@@ -32,7 +32,7 @@ builder.Services.AddHttpContextAccessor();
 // Sessão
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.IdleTimeout = TimeSpan.FromMinutes(60);
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
@@ -42,6 +42,8 @@ builder.Services.AddControllersWithViews();
 
 // Repositórios
 builder.Services.AddScoped<ILoginRepositorio, LoginRepositorio>();
+//builder.Services.AddScoped<ICarrinhoService, CarrinhoService>();
+
 
 var app = builder.Build();
 
@@ -61,6 +63,7 @@ app.UseRouting();
 app.UseAuthentication();   // Autenticação
 app.UseSession();          // Ativando a sessão
 app.UseAuthorization();    // Autorização
+
 
 app.MapControllerRoute(
     name: "default",

@@ -2,7 +2,7 @@
     ViewData["Title"] = "Home Page";
 }
 
-@model prototipo1204.Models.Cliente;
+@model prototipo1204.Models.ItemPedido;
 
 <body >
 
@@ -150,26 +150,7 @@
     <!-- Overlay (fundo escuro) -->
     <div class="overlay-sacola" id="sacola-overlay" onclick="fecharSacola()"></div>
 
-    <!-- Menu de Sacola -->
-    <div class="menu-sacola" id="menu-sac">
-        <div class="sac-text">
-            <p>Sacola</p>
-            <img src="~/img/fechar-icon.png" alt="Fechar" onclick="fecharSacola()" class="icon-menuSac">
-        </div>
-        <hr class="hr-sacola">
-
-        <div class="inside-sacola">
-            <img src="~/img/shopping-icon.png" alt="sacola">
-            <p>sua sacola está vazia</p>
-        </div>
-        <hr>
-
-        <div class="btns-sacola">
-            <button><img src="~/img/shopping-icon.png" alt="">Finalizar compra</button>
-            <a href="#">Continuar comprando</a>
-        </div>
-    </div>
-
+  
 
 
 
@@ -191,10 +172,16 @@
                 <div class="img-produtos">
                     <img src="~/img/produtos/labios/lip balm/fran.png" alt="">
                 </div>
+                <!-- Substitua o link do carrinho por este formulário -->
                 <div class="btn-prod">
-                    <!-- Agora o link "Ver mais" vai abrir o modal -->
                     <a href="#" data-bs-toggle="modal" data-bs-target="#productModal">Ver mais</a>
-                    <a href="#"><img class="icons-prod" src="~/img/icon-shopping-prod.png" alt=""></a>
+                    <form method="post" asp-controller="Pedidoes" asp-action="AdicionarItem" class="d-inline">
+                        <input type="hidden" name="idProduto" value="1" /> <!-- ID real do produto -->
+                        <input type="hidden" name="quantidade" value="1" />
+                        <button type="submit" class="btn-compra">
+                            <img class="icons-prod" src="~/img/icon-shopping-prod.png" alt="Comprar">
+                        </button>
+                    </form>
                 </div>
             </div>
 

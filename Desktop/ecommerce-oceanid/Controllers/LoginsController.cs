@@ -9,6 +9,7 @@ using prototipo1204.Data;
 using prototipo1204.Models;
 using prototipo1204.Repositorios.Interface;
 using Microsoft.AspNetCore.Http;
+using MySqlX.XDevAPI;
 
 
 namespace prototipo1204.Controllers
@@ -190,9 +191,10 @@ namespace prototipo1204.Controllers
 
             var login = _loginRepositorio.Login(email, senha);
 
-            if (login is Cliente)
+            if (login is Cliente cliente)
             {
                 HttpContext.Session.SetString("emailCliente", email);
+                HttpContext.Session.SetInt32("idCliente", cliente.idCliente);
                 TempData["Login"] = "Bem-vindo, cliente!";
                 return RedirectToAction("Index", "Home");
             }
@@ -205,6 +207,14 @@ namespace prototipo1204.Controllers
 
             TempData["Login"] = "E-mail ou senha inválidos.";
             return RedirectToAction("Index", "Home");
+        }
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            TempData["Login"] = "Faça o login antes de adicionar ao carrinho";
+            return RedirectToAction("Index", "Home");
+           
         }
 
 

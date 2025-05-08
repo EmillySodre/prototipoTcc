@@ -11,5 +11,6 @@
         // FKs
         public Pedido Pedido { get; set; }
         public Produto Produto { get; set; }
+       
     }
 }

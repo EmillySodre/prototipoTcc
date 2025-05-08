@@ -1,0 +1,81 @@
+﻿@model List<prototipo1204.Models.Pedido>
+
+<div class="menu-sacola border rounded p-3 bg-light" id="menu-sac">
+    <div class="d-flex justify-content-between align-items-center mb-2">
+        <h5 class="mb-0">Sacola</h5>
+        <button class="btn btn-sm btn-outline-secondary" onclick="fecharSacola()">
+            <img src="~/img/fechar-icon.png" alt="Fechar" class="icon-menuSac" />
+        </button>
+    </div>
+
+    <hr class="hr-sacola" />
+
+    @if (Model == null || !Model.Any())
+    {
+        <div class="text-center text-muted">
+            <img src="~/img/shopping-icon.png" alt="sacola" style="width: 40px;" />
+            <p>Sua sacola está vazia</p>
+        </div>
+    }
+    else
+    {
+        <div class="inside-sacola">
+            @foreach (var pedido in Model)
+            {
+                <div class="card mb-3">
+                    <div class="card-header">
+                        <strong>Pedido #@pedido.idPed</strong> - @pedido.dataPed.ToShortDateString()
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Total:</strong> R$ @pedido.totalPed</p>
+                        <ul class="list-group">
+                            @foreach (var item in pedido.ItemPedido)
+                            {
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <strong>@item.Produto.nomeProd</strong><br />
+                                            Quantidade: @item.quantidade<br />
+                                            Preço unitário: R$ @item.precoUnitario
+                                        </div>
+                                        <div class="btn-group" role="group">
+                                            <!-- Aumentar quantidade -->
+                                            <form method="post" asp-action="AdicionarItem" asp-controller="Pedidoes">
+                                                <input type="hidden" name="id" value="@item.idProdutoPedido" />
+                                                <button type="submit" class="btn btn-sm btn-success">+</button>
+                                            </form>
+
+                                            <!-- Diminuir quantidade -->
+                                            <form method="post" asp-action="DiminuirItem" asp-controller="Pedidoes">
+                                                <input type="hidden" name="id" value="@item.idProdutoPedido" />
+                                                <button type="submit" class="btn btn-sm btn-warning">-</button>
+                                            </form>
+
+                                            <!-- Remover item -->
+                                            <form method="post" asp-action="RemoverItem" asp-controller="Pedidoes" onsubmit="return confirm('Deseja remover este item?');">
+                                                <input type="hidden" name="id" value="@item.idProdutoPedido" />
+                                                <button type="submit" class="btn btn-sm btn-danger">
+                                                    <i class="bi bi-trash"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+
+    <hr />
+    <div class="btns-sacola d-flex justify-content-between align-items-center">
+        <form method="post" asp-action="FinalizarCompra" asp-controller="Pedidoes">
+            <button class="btn btn-success">
+                <img src="~/img/shopping-icon.png" alt="Finalizar" style="width: 20px;" /> Finalizar compra
+            </button>
+        </form>
+        <a href="/" class="btn btn-outline-primary">Continuar comprando</a>
+    </div>
+</div>

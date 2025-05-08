@@ -30,7 +30,7 @@
             <img class="logo-header" src="~/img/oceanid_logo_menor.png" alt="logo oceanid">
             <div class="icon-holders">
                 <a href="#"><img class="icons-header" src="~/img/favs-icon.png" alt="favoritos"></a>
-                <a href="#"><img class="icons-header" src="~/img/shopping-icon.png" alt="carrinho" onclick="abrirSacola()"></a>
+                <a asp-controller="Pedidoes" asp-action="MeusPedidos" ><img class="icons-header" src="~/img/shopping-icon.png" alt="carrinho" onclick="abrirSacola()"></a>
                 <a href="#"><img class="icons-header" src="~/img/login-icon.png" alt="login" onclick="menuLogin()"></a>
                 <a href="#" onclick="toggleTheme()" id="themeToggle">
                     <img src="~/img/darkmode.png" class="bi bi-moon" id="themeIcon" alt="dark mode" />

@@ -1,0 +1,166 @@
+﻿/* Animação de entrada */
+@keyframes slideInSacola {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.teste{
+    height:500px;
+}
+/* Fundo escuro ao abrir */
+.overlay-sacola {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: none;
+    z-index: 998;
+}
+
+/* Menu lateral da sacola */
+.menu-sacola {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 340px;
+    height: 100vh;
+    background: #fff;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    transition: right 0.4s ease;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    animation: slideInSacola 0.4s forwards;
+    overflow-y: auto;
+}
+
+    .menu-sacola.aberta {
+        right: 0;
+    }
+
+/* Cabeçalho da sacola */
+.sac-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-menuSac {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+/* Conteúdo da sacola */
+.inside-sacola {
+    margin-top: 20px;
+}
+
+/* Cartões de pedido */
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+}
+
+.card-header {
+    background-color: #e9ecef;
+    font-weight: bold;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Lista de itens */
+.list-group-item {
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.9rem;
+    padding: 10px;
+}
+
+    /* Bloco com info do produto e botões */
+    .list-group-item .d-flex > div:first-child {
+        flex-grow: 1;
+    }
+
+/* Botões de ação */
+.btn-group form {
+    margin-left: 5px;
+}
+
+.btn-success,
+.btn-warning,
+.btn-danger {
+    padding: 4px 10px;
+    font-size: 0.85rem;
+}
+
+/* Botões do rodapé */
+.btns-sacola {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+    .btns-sacola button {
+        background-color: #CDEEEE;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        transition: background 0.2s;
+    }
+
+        .btns-sacola button:hover {
+            background-color: #b1dddd;
+        }
+
+    .btns-sacola img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .btns-sacola a {
+        color: black;
+        font-size: 14px;
+        text-decoration: none;
+    }
+
+        .btns-sacola a:hover {
+            text-decoration: underline;
+        }
+
+/* Mensagem de sacola vazia */
+.text-muted p {
+    font-size: 0.95rem;
+    margin-top: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 576px) {
+    .menu-sacola {
+        width: 100%;
+        right: -100%;
+    }
+}

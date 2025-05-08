@@ -96,6 +96,8 @@ create table tbPedido(
     totalPed decimal(10,2) not null
 );
 
+select * from tbCliente;
+
 create table tbItemPedido (
     idProdutoPedido int primary key auto_increment,
     idPedido int not null,

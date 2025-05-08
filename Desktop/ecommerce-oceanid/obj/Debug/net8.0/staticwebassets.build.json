@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hIXh8lR4xuWOsqxTzP6xtBuUq1Cizkxh7Zojz+6lU28=",
+  "Hash": "WV22NxIxEWn2dV73WEZhyz1HLU5TYylciM0kDsYFe3c=",
   "Source": "prototipo1204",
   "BasePath": "_content/prototipo1204",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\prototipo1204.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\wwwroot\\css\\sacola.css",
+      "SourceId": "prototipo1204",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\wwwroot\\",
+      "BasePath": "_content/prototipo1204",
+      "RelativePath": "css/sacola.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\sacola.css"
     },
     {
       "Identity": "C:\\Users\\Lider\\Desktop\\ecommerce-oceanid\\wwwroot\\css\\site.css",
